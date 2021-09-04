@@ -539,9 +539,22 @@ button {
 .social-link:focus,
 .social-link:hover .social-icon,
 .social-link:focus .social-icon {
-  fill: var(--white-color);
+  /* fill: var(--white-color);*/
   background-color: var(--accent-color);
 }
+
+.social-link:hover,
+.social-link:focus {
+  fill: var(--white-color);
+}
+/*.social-link:focus,
+.social-link:hover .social-link-footer,
+.team-social-list-el:focus .social-link-footer {
+  background-color: var(--accent-color);
+}
+.social-link-footer .social-icon-footer {
+  fill: var(--white-color);
+}*/
 
 /*Clients*/
 .clients {
