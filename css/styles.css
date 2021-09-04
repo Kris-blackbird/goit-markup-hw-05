@@ -293,8 +293,11 @@ button {
   height: 100%;
 
   background: rgba(0, 0, 0, 0.02);
-  /*z-index: 1;
-  opacity: 0;*/
+
+  /* transition-property: opacity;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
+  transition: opacity 250ms;
 }
 
 .modal-window {
@@ -309,9 +312,9 @@ button {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
-  transition-property: margin-right, color;
+  /*transition-property: margin-right, color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 
 .close-button {
