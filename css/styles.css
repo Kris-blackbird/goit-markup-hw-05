@@ -87,6 +87,8 @@ body {
   color: var(--accent-color);
   display: flex;
   margin-right: 93px;
+
+  animation: rotateY 3000ms infinite alternate backwards ease-in-out 1000ms;
 }
 
 .header-line {
@@ -886,3 +888,13 @@ footer {
 a {
   text-decoration: none;
 }
+
+/* Анимация для логотипа*/
+@keyframes rotateY {
+  0% {
+    transform: perspective(400px) rotateY(60deg);
+  }
+
+  100% {
+    transform: perspective(400px) rotateY(-60deg);
+  }
